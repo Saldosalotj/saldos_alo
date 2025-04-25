@@ -1,0 +1,229 @@
+body{
+	/*background-image es para la imagen de fondo*/
+	background-image:url("../imagenes/fondo1.jpg");
+	/*font-family es para tipografia de la letra*/
+	font-family:"tahoma","lucida console";
+	/*color es para el color de letras*/
+	color:#CF852D;
+	/*font-size es para el tamaño de la letra*/
+	font-size:40px;
+	text-align:center;
+}
+hr{
+	border:3px solid red;
+	width:80%;
+	border-radius:5px;
+}
+p{
+	text-align:center;
+	font-size:20px;
+	color:#e98f28;
+	font-weight:bold;
+	line-height:1.2;
+	letter-spacing:2px;
+}
+table,tr,td{
+	border:1px solid #E94028;
+	border-spacing:0;
+	background-color:#F39257;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+}
+.pie{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#E94028;
+}
+.encabezado{
+	font-family:"tipo";
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+	color:#E94028;
+}
+div#top{
+	font-family:"sofi";
+	width:100%;
+	height:75px;
+	background-image:linear-gradient(#F7AC52,#F1BC7B);
+}
+div#ppag{
+	width:100%;
+	font-family:"fresco";
+	font-size:12px;
+	height:100px;
+	background-image:linear-gradient(#F7AC52,#F1BC7B);
+}
+.carrousel{
+	width:500px;
+	margin:auto;
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:600px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows> i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller> a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows> a > i{
+	color:white;
+}
+/*cajas para productos*/
+.caja{
+	height:300px;
+	width:250px;
+	background:#F8DBF6;
+	border:1px solid #F8DBF6;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:30px;
+	color:#E94028;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.juguetes{
+            width: 30%;
+            margin: 10px auto;
+            font-family: "Arial", "sans-serif";
+			font-size:15px;
+            border: 1px solid black;
+            padding: 15px;
+            background-color: #f8ef84;
+            border-radius: 5px;
+        }
+.juguetes h2{
+            margin-bottom: 10px;
+        }
+ .juguetes p{
+            margin: 5px 0;
+        }
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color:#black;
+	font-weight:bold;
+	font-size:15px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+aling-items:center;
+}	
+.navegacion-titulo{
+	margin:0;
+	transform:rotate:(-90deg);
+	transition:transform 0.2s 0.2s;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-item:hover.navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#E94028;
+}
+.navegacion-item:nth-child(2){
+	background:#E94028;
+}
+.navegacion-item:nth-child(3){
+background:#E94028;
+}
+.navegacion-item:nth-child(4){
+	background:#E94028;
+}
+.cuadro{
+	text-align:center;
+	display:flex;
+border:5px solid orange;
+	padding:50px;
+	max-width:700px;
+	background-color:eebb6c;
+}
+.imagen{
+	width:250px;
+	height:180px;
+	background-image:url(../imagenes/saldosalologo.jpg);
+	background-size:cover;
+	background-position:center;
+	margin-right:20px;
+}
+.texto{
+	font-size:25px;
+}
+.navegacion-item{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+@font-face{
+	font-family:"sofi";
+	src: url(../fuentes/sofi.ttf);
+}
+@font-face{
+	font-family:"tipo";
+	src: url(../fuentes/pp.ttf);
+}
+@font-face{
+	font-family:"fresco";
+	src: url(../fuentes/fresco.ttf);
+}
+
+
+
+
